@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/assets/img/hero-bg.jpg") top center;
+  background: url("https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/13512018_10208055915414532_2173069959862107011_n.jpg?_nc_cat=105&_nc_sid=19026a&_nc_ohc=NezVJs2ItvoAX-StIPq&_nc_ht=scontent-ort2-2.xx&oh=e2de88bc835260a14090eec6548fb810&oe=5F9E66A0") top center;
   background-size: cover;
 }
 
