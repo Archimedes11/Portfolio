@@ -1080,3 +1080,16 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.card{
+  max-height: 226px;
+  max-width: 250px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.skill-title{
+  background-color: grey;
+  color: white;
+  font-weight: 700;
+}
