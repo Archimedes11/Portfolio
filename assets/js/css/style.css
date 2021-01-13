@@ -217,24 +217,23 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../../img/hero-bg.jpeg") center;
+  background: url("../../img/hero-bg.jpeg") bottom center;
   background-size: cover;
-  margin-bottom: 0;
+  bottom: 0;
 }
 
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
-  background-size: cover;
+  background-size: cover !important; 
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
-  margin-bottom:0px;
+  bottom:0px;
 
-  
 }
 
 #hero .hero-container {
