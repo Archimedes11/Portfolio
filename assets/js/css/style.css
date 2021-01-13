@@ -219,21 +219,25 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../../img/hero-bg.jpeg") bottom center;
   background-size: cover;
-  bottom: 0;
+  margin-bottom: 0;
 }
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
-  background-size: cover !important; 
+  background: rgba(5, 13, 24, 0.3) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
-  bottom:0px;
+  margin-bottom:0px;
 
+  
 }
 
 #hero .hero-container {
@@ -267,9 +271,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
-  }
-  #hero:before {
-    background-size: cover !important;
   }
 }
 
