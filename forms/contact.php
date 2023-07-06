@@ -29,7 +29,7 @@ $contact->smtp = array(
   'username' => 'adam@adamkwolff.com',
   'password' => 'Fflow0667!!!',
   'port' => '587',
-  'encryption' => 'tls'
+  'encryption' => 'starttls'
 );
 
 $contact->add_message( $_POST['name'], 'From');
