@@ -30,7 +30,7 @@
     'username' => 'adam@adamkwolff.com',
     'password' => 'Fflow0667!!!',
     'port' => '587'
-    'secure' => 'ssl'
+    'secure' => 'tls'
   );
   
 
