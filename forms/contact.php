@@ -6,6 +6,10 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
+
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'adam@adamkwolff.com';
 
@@ -29,7 +33,7 @@
     'host' => 'smtp.office365.com',
     'username' => 'adam@adamkwolff.com',
     'password' => 'Fflow0667!!!',
-    'port' => '587'
+    'port' => '587',
     'secure' => 'tls'
   );
   
